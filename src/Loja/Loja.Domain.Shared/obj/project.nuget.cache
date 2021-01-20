@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IcFt72IfC0RGW15Ou06zTp2QC887rrdfiX3p4YtFTLPS/VQzaAXz9YVLKC51UB3GRCUziN5cf6wRFJdHE62y6w==",
+  "success": true,
+  "projectFilePath": "D:\\repos\\Loja\\src\\Loja\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Erik Araujo\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

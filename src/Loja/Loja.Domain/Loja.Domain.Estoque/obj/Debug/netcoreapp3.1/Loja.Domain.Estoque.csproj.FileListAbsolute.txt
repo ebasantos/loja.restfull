@@ -1,0 +1,4 @@
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Estoque\bin\Debug\netcoreapp3.1\Loja.Domain.Shared.dll
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Estoque\obj\Debug\netcoreapp3.1\Loja.Domain.Estoque.csprojAssemblyReference.cache
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Estoque\obj\Debug\netcoreapp3.1\Loja.Domain.Estoque.AssemblyInfoInputs.cache
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Estoque\obj\Debug\netcoreapp3.1\Loja.Domain.Estoque.AssemblyInfo.cs

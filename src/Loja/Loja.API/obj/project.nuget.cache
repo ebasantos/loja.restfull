@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3DOYI0zMWh6Ee07s6yThxyfiX/XxVV74ZUP/GT3Epr/Mqs6tWLWjFDC7vf/SigQBzau04gBEcAvmNemdJs+ciQ==",
+  "success": true,
+  "projectFilePath": "D:\\repos\\Loja\\src\\Loja\\Loja.API\\Loja.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Erik Araujo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}

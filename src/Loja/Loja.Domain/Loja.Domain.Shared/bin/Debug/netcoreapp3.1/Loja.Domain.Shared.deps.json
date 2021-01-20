@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Loja.Domain.Shared/1.0.0": {
+        "runtime": {
+          "Loja.Domain.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Loja.Domain.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

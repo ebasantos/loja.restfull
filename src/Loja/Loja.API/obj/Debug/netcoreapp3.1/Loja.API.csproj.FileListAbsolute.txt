@@ -1,0 +1,9 @@
+D:\repos\Loja\src\Loja\Loja.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\repos\Loja\src\Loja\Loja.API\bin\Debug\netcoreapp3.1\appsettings.json
+D:\repos\Loja\src\Loja\Loja.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\repos\Loja\src\Loja\Loja.API\obj\Debug\netcoreapp3.1\Loja.API.csprojAssemblyReference.cache
+D:\repos\Loja\src\Loja\Loja.API\obj\Debug\netcoreapp3.1\Loja.API.AssemblyInfoInputs.cache
+D:\repos\Loja\src\Loja\Loja.API\obj\Debug\netcoreapp3.1\Loja.API.AssemblyInfo.cs
+D:\repos\Loja\src\Loja\Loja.API\obj\Debug\netcoreapp3.1\Loja.API.RazorTargetAssemblyInfo.cache
+D:\repos\Loja\src\Loja\Loja.API\obj\Debug\netcoreapp3.1\staticwebassets\Loja.API.StaticWebAssets.Manifest.cache
+D:\repos\Loja\src\Loja\Loja.API\obj\Debug\netcoreapp3.1\staticwebassets\Loja.API.StaticWebAssets.xml
