@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Loja.Domain.Shared\Loja.Domain.Shared.csproj" />
+    <ProjectReference Include="..\Loja.Domain.Shared\Loja.Domain.Shared.csproj" />
   </ItemGroup>
 
 </Project>

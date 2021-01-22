@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\Loja\\src\\Loja\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj": {}
+    "D:\\repos\\Loja\\src\\Loja\\Loja.Domain\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj": {}
   },
   "projects": {
-    "D:\\repos\\Loja\\src\\Loja\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj": {
+    "D:\\repos\\Loja\\src\\Loja\\Loja.Domain\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\Loja\\src\\Loja\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj",
+        "projectUniqueName": "D:\\repos\\Loja\\src\\Loja\\Loja.Domain\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj",
         "projectName": "Loja.Domain.Shared",
-        "projectPath": "D:\\repos\\Loja\\src\\Loja\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj",
+        "projectPath": "D:\\repos\\Loja\\src\\Loja\\Loja.Domain\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj",
         "packagesPath": "C:\\Users\\Erik Araujo\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\Loja\\src\\Loja\\Loja.Domain.Shared\\obj\\",
+        "outputPath": "D:\\repos\\Loja\\src\\Loja\\Loja.Domain\\Loja.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

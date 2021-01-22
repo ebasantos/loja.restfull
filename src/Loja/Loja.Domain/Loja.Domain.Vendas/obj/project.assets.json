@@ -11,6 +11,20 @@
           "lib/netstandard2.0/Flunt.dll": {}
         }
       },
+      "Loja.Domain.Estoque/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Flunt": "1.0.5",
+          "Loja.Domain.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Loja.Domain.Estoque.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Loja.Domain.Estoque.dll": {}
+        }
+      },
       "Loja.Domain.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -39,14 +53,20 @@
         "lib/netstandard2.0/Flunt.dll"
       ]
     },
+    "Loja.Domain.Estoque/1.0.0": {
+      "type": "project",
+      "path": "../Loja.Domain.Estoque/Loja.Domain.Estoque.csproj",
+      "msbuildProject": "../Loja.Domain.Estoque/Loja.Domain.Estoque.csproj"
+    },
     "Loja.Domain.Shared/1.0.0": {
       "type": "project",
-      "path": "../../Loja.Domain.Shared/Loja.Domain.Shared.csproj",
-      "msbuildProject": "../../Loja.Domain.Shared/Loja.Domain.Shared.csproj"
+      "path": "../Loja.Domain.Shared/Loja.Domain.Shared.csproj",
+      "msbuildProject": "../Loja.Domain.Shared/Loja.Domain.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Loja.Domain.Estoque >= 1.0.0",
       "Loja.Domain.Shared >= 1.0.0"
     ]
   },
@@ -82,6 +102,12 @@
           "projectReferences": {
             "D:\\repos\\Loja\\src\\Loja\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj": {
               "projectPath": "D:\\repos\\Loja\\src\\Loja\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj"
+            },
+            "D:\\repos\\Loja\\src\\Loja\\Loja.Domain\\Loja.Domain.Estoque\\Loja.Domain.Estoque.csproj": {
+              "projectPath": "D:\\repos\\Loja\\src\\Loja\\Loja.Domain\\Loja.Domain.Estoque\\Loja.Domain.Estoque.csproj"
+            },
+            "D:\\repos\\Loja\\src\\Loja\\Loja.Domain\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj": {
+              "projectPath": "D:\\repos\\Loja\\src\\Loja\\Loja.Domain\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj"
             }
           }
         }

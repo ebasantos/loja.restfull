@@ -41,8 +41,8 @@
     },
     "Loja.Domain.Shared/1.0.0": {
       "type": "project",
-      "path": "../../Loja.Domain.Shared/Loja.Domain.Shared.csproj",
-      "msbuildProject": "../../Loja.Domain.Shared/Loja.Domain.Shared.csproj"
+      "path": "../Loja.Domain.Shared/Loja.Domain.Shared.csproj",
+      "msbuildProject": "../Loja.Domain.Shared/Loja.Domain.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -83,6 +83,9 @@
           "projectReferences": {
             "D:\\repos\\Loja\\src\\Loja\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj": {
               "projectPath": "D:\\repos\\Loja\\src\\Loja\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj"
+            },
+            "D:\\repos\\Loja\\src\\Loja\\Loja.Domain\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj": {
+              "projectPath": "D:\\repos\\Loja\\src\\Loja\\Loja.Domain\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj"
             }
           }
         }
