@@ -5,6 +5,7 @@ using Loja.Domain.Estoque.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Loja.API.Controllers
 {
@@ -23,7 +24,7 @@ namespace Loja.API.Controllers
         public IActionResult ObterTodos([FromServices] IProdutoRepository _repo)
         {
             var result = _repo.ObterProdutos();
-            return result is null ? (IActionResult)Ok(result) : NoContent();
+            return result.Any() ? (IActionResult) Ok(result) : NoContent();
         }
         
         [HttpPost]
@@ -53,7 +54,7 @@ namespace Loja.API.Controllers
         public IActionResult ObterProduto([FromServices]  IProdutoRepository _repo, long id)
         {
             var result =  _repo.ObterProdutoPorId(id);
-            return result is null ? (IActionResult) Ok(result) : NoContent();
+            return result != null ? (IActionResult) Ok(result) : NoContent();
         }
     }
 }

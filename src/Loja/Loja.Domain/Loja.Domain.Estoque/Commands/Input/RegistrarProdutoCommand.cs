@@ -11,6 +11,10 @@ namespace Loja.Domain.Estoque.Commands.Input
             Descricao = descricao;
             Valor = valor;
         }
+        public RegistrarProdutoCommand()
+        {
+
+        }
 
         public string Descricao { get; set; }
         public decimal Valor { get; set; }
@@ -21,7 +25,7 @@ namespace Loja.Domain.Estoque.Commands.Input
                    new Contract()
                        .Requires()
                        .IsNotNullOrEmpty(Descricao, "Descricao", "o campo Descricao é obrigatório")
-                       .IsLowerOrEqualsThan(Valor, 0.00, "Valor", "o campo Valor deve ser maior que 0,00 ")
+                       .IsGreaterThan(Valor, 0.00, "Valor", "o campo Valor deve ser maior que 0,00 ")
                );
         }
     }

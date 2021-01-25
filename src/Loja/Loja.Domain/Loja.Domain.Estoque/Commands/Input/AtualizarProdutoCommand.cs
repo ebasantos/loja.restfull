@@ -13,6 +13,11 @@ namespace Loja.Domain.Estoque.Commands.Input
             ProdutoId = produtoId;
         }
 
+        public AtualizarProdutoCommand()
+        {
+
+        }
+
         public string Descricao { get; set; }
         public decimal Valor { get; set; }
         public long ProdutoId { get; set; }
@@ -23,8 +28,8 @@ namespace Loja.Domain.Estoque.Commands.Input
                    new Contract()
                        .Requires()
                        .IsNotNullOrEmpty(Descricao, "Descricao", "o campo Descricao é obrigatório")
-                       .IsLowerOrEqualsThan(Valor, 0.00, "Valor", "o campo Valor deve ser maior que 0,00 ")
-                       .IsLowerOrEqualsThan(ProdutoId, 0, "ProdutoId", "Produto inválido")
+                       .IsGreaterThan(Valor, 0.00, "Valor", "o campo Valor deve ser maior que 0,00 ")
+                       .IsGreaterThan(ProdutoId, 0, "ProdutoId", "Produto inválido")
                );
         }
     }

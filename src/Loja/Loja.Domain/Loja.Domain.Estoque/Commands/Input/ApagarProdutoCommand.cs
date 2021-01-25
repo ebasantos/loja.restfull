@@ -11,6 +11,11 @@ namespace Loja.Domain.Estoque.Commands.Input
             ProdutoId = produtoId;
         }
 
+        public ApagarProdutoCommand()
+        {
+
+        }
+
         public long ProdutoId { get; set; }
 
         public void Validate()
@@ -18,7 +23,7 @@ namespace Loja.Domain.Estoque.Commands.Input
             AddNotifications(
                    new Contract()
                        .Requires() 
-                       .IsLowerOrEqualsThan(ProdutoId, 0, "ProdutoId", "Produto inválido")
+                       .IsGreaterThan(ProdutoId, 0, "ProdutoId", "Produto inválido")
                );
         }
     }
