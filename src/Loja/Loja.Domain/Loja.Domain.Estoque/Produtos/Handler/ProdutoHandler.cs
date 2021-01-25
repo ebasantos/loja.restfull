@@ -8,7 +8,7 @@ using System;
 
 namespace Loja.Domain.Estoque.Handler
 {
-    public class Handler :
+    public class ProdutoHandler :
             Notifiable,
             IHandler<RegistrarProdutoCommand>,
             IHandler<AtualizarProdutoCommand>,
@@ -16,7 +16,7 @@ namespace Loja.Domain.Estoque.Handler
     {
         private readonly IProdutoRepository _repo;
 
-        public Handler(IProdutoRepository repo)
+        public ProdutoHandler(IProdutoRepository repo)
         {
             _repo = repo;
         }

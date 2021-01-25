@@ -28,7 +28,7 @@ namespace Loja.API.Controllers
         }
         
         [HttpPost]
-        public IActionResult RegistrarProduto([FromServices] Handler handler, [FromBody] RegistrarProdutoCommand command)
+        public IActionResult RegistrarProduto([FromServices] ProdutoHandler handler, [FromBody] RegistrarProdutoCommand command)
         {
             var result = handler.Handle(command);
 
@@ -36,14 +36,14 @@ namespace Loja.API.Controllers
         }
 
         [HttpPut]
-        public IActionResult AtualizarProduto([FromServices] Handler handler, [FromBody] AtualizarProdutoCommand command)
+        public IActionResult AtualizarProduto([FromServices] ProdutoHandler handler, [FromBody] AtualizarProdutoCommand command)
         {
             var result = handler.Handle(command);
             return result.Success ? (IActionResult) Ok(result) : UnprocessableEntity(result);
         }
 
         [HttpDelete]
-        public IActionResult AtualizarProduto([FromServices] Handler handler, [FromBody] ApagarProdutoCommand command)
+        public IActionResult AtualizarProduto([FromServices] ProdutoHandler handler, [FromBody] ApagarProdutoCommand command)
         {
             var result = handler.Handle(command);
             return result.Success ? (IActionResult) Accepted(result) : BadRequest(result);

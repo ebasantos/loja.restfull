@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="RestSharp" Version="106.11.7" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\Loja.Domain\Loja.Domain.Estoque\Loja.Domain.Estoque.csproj" />
     <ProjectReference Include="..\Loja.Infra.Data\Loja.Infra.Data.csproj" />
   </ItemGroup>
