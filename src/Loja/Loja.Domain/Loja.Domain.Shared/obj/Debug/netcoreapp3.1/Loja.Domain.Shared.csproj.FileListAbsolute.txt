@@ -3,3 +3,12 @@ D:\repos\Loja\src\Loja\Loja.Domain.Shared\bin\Debug\netcoreapp3.1\Loja.Domain.Sh
 D:\repos\Loja\src\Loja\Loja.Domain.Shared\obj\Debug\netcoreapp3.1\Loja.Domain.Shared.csprojAssemblyReference.cache
 D:\repos\Loja\src\Loja\Loja.Domain.Shared\obj\Debug\netcoreapp3.1\Loja.Domain.Shared.AssemblyInfoInputs.cache
 D:\repos\Loja\src\Loja\Loja.Domain.Shared\obj\Debug\netcoreapp3.1\Loja.Domain.Shared.AssemblyInfo.cs
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Shared\bin\Debug\netcoreapp3.1\Loja.Domain.Shared.deps.json
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Shared\bin\Debug\netcoreapp3.1\Loja.Domain.Shared.dll
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Shared\bin\Debug\netcoreapp3.1\Loja.Domain.Shared.pdb
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Shared\obj\Debug\netcoreapp3.1\Loja.Domain.Shared.AssemblyInfoInputs.cache
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Shared\obj\Debug\netcoreapp3.1\Loja.Domain.Shared.AssemblyInfo.cs
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Shared\obj\Debug\netcoreapp3.1\Loja.Domain.Shared.csproj.CoreCompileInputs.cache
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Shared\obj\Debug\netcoreapp3.1\Loja.Domain.Shared.dll
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Shared\obj\Debug\netcoreapp3.1\Loja.Domain.Shared.pdb
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Shared\obj\Debug\netcoreapp3.1\Loja.Domain.Shared.csprojAssemblyReference.cache

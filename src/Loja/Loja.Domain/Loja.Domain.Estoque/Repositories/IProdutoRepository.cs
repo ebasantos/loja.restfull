@@ -6,9 +6,9 @@ namespace Loja.Domain.Estoque.Repositories
     public interface IProdutoRepository
     {
         long RegistrarProduto(Produto produto);
-        Produto AtualizarProduto(long id, Produto produto);
+        Produto AtualizarProduto(Produto produto);
         IEnumerable<Produto> ObterProdutos();
         Produto ObterProdutoPorId(long id);
-        void ApagarProduto(long id);
+        void ApagarProduto(Produto produto);
     }
 }

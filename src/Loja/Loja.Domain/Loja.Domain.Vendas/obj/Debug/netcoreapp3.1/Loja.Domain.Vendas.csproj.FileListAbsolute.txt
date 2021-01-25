@@ -1,0 +1,14 @@
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Vendas\bin\Debug\netcoreapp3.1\Loja.Domain.Vendas.deps.json
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Vendas\bin\Debug\netcoreapp3.1\Loja.Domain.Vendas.dll
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Vendas\bin\Debug\netcoreapp3.1\Loja.Domain.Vendas.pdb
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Vendas\bin\Debug\netcoreapp3.1\Loja.Domain.Estoque.dll
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Vendas\bin\Debug\netcoreapp3.1\Loja.Domain.Shared.dll
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Vendas\bin\Debug\netcoreapp3.1\Loja.Domain.Estoque.pdb
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Vendas\bin\Debug\netcoreapp3.1\Loja.Domain.Shared.pdb
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Vendas\obj\Debug\netcoreapp3.1\Loja.Domain.Vendas.csprojAssemblyReference.cache
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Vendas\obj\Debug\netcoreapp3.1\Loja.Domain.Vendas.AssemblyInfoInputs.cache
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Vendas\obj\Debug\netcoreapp3.1\Loja.Domain.Vendas.AssemblyInfo.cs
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Vendas\obj\Debug\netcoreapp3.1\Loja.Domain.Vendas.csproj.CoreCompileInputs.cache
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Vendas\obj\Debug\netcoreapp3.1\Loja.Domain.Vendas.csproj.CopyComplete
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Vendas\obj\Debug\netcoreapp3.1\Loja.Domain.Vendas.dll
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Vendas\obj\Debug\netcoreapp3.1\Loja.Domain.Vendas.pdb

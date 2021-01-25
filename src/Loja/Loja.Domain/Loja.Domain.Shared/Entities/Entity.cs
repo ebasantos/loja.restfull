@@ -9,6 +9,9 @@ namespace Loja.Domain.Shared.Entities
         [Key]
         public long Id { get; private set; }
         public DateTime DataCadastro { get; private set; }
+        public DateTime? DataAtualizacao { get; set; }
+
+
 
         public Entity()
         {

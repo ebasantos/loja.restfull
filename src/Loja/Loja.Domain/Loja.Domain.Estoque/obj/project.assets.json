@@ -81,9 +81,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\repos\\Loja\\src\\Loja\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj": {
-              "projectPath": "D:\\repos\\Loja\\src\\Loja\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj"
-            },
             "D:\\repos\\Loja\\src\\Loja\\Loja.Domain\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj": {
               "projectPath": "D:\\repos\\Loja\\src\\Loja\\Loja.Domain\\Loja.Domain.Shared\\Loja.Domain.Shared.csproj"
             }

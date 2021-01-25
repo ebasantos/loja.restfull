@@ -2,3 +2,11 @@ D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Estoque\bin\Debug\netcoreapp3.1\L
 D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Estoque\obj\Debug\netcoreapp3.1\Loja.Domain.Estoque.csprojAssemblyReference.cache
 D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Estoque\obj\Debug\netcoreapp3.1\Loja.Domain.Estoque.AssemblyInfoInputs.cache
 D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Estoque\obj\Debug\netcoreapp3.1\Loja.Domain.Estoque.AssemblyInfo.cs
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Estoque\bin\Debug\netcoreapp3.1\Loja.Domain.Estoque.deps.json
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Estoque\bin\Debug\netcoreapp3.1\Loja.Domain.Estoque.dll
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Estoque\bin\Debug\netcoreapp3.1\Loja.Domain.Estoque.pdb
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Estoque\bin\Debug\netcoreapp3.1\Loja.Domain.Shared.pdb
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Estoque\obj\Debug\netcoreapp3.1\Loja.Domain.Estoque.csproj.CoreCompileInputs.cache
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Estoque\obj\Debug\netcoreapp3.1\Loja.Domain.Estoque.csproj.CopyComplete
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Estoque\obj\Debug\netcoreapp3.1\Loja.Domain.Estoque.dll
+D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Estoque\obj\Debug\netcoreapp3.1\Loja.Domain.Estoque.pdb
