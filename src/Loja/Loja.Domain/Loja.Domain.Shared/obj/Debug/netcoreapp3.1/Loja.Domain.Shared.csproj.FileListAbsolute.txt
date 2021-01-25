@@ -11,4 +11,3 @@ D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Shared\obj\Debug\netcoreapp3.1\Lo
 D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Shared\obj\Debug\netcoreapp3.1\Loja.Domain.Shared.csproj.CoreCompileInputs.cache
 D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Shared\obj\Debug\netcoreapp3.1\Loja.Domain.Shared.dll
 D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Shared\obj\Debug\netcoreapp3.1\Loja.Domain.Shared.pdb
-D:\repos\Loja\src\Loja\Loja.Domain\Loja.Domain.Shared\obj\Debug\netcoreapp3.1\Loja.Domain.Shared.csprojAssemblyReference.cache

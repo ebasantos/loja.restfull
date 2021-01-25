@@ -65,3 +65,5 @@ D:\repos\Loja\src\Loja\Loja.API\obj\Debug\netcoreapp3.1\Loja.API.csproj.CopyComp
 D:\repos\Loja\src\Loja\Loja.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 D:\repos\Loja\src\Loja\Loja.API\obj\Debug\netcoreapp3.1\Loja.API.csproj.CoreCompileInputs.cache
 D:\repos\Loja\src\Loja\Loja.API\obj\Debug\netcoreapp3.1\Loja.API.MvcApplicationPartsAssemblyInfo.cache
+D:\repos\Loja\src\Loja\Loja.API\bin\Debug\netcoreapp3.1\Loja.Infra.Estoque.dll
+D:\repos\Loja\src\Loja\Loja.API\bin\Debug\netcoreapp3.1\Loja.Infra.Estoque.pdb
