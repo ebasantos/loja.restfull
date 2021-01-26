@@ -24,7 +24,6 @@ namespace Loja.Tests.Estoque.Logistica
             Assert.IsTrue(result.Success == false);
         }
 
-
         [TestMethod]
         public void CalcularFreteEstadoMT()
         {
@@ -47,6 +46,30 @@ namespace Loja.Tests.Estoque.Logistica
             var result = handle.Handle(command);
 
             Assert.IsTrue(((ConsultarFreteCommandResult)result.Data).Valor == 40.00M);
+        }
+
+        [TestMethod]
+        public void CalcularFreteCidadeRIO()
+        {
+            #region CONFIG
+            Mock<IConsultaCEPRepository> mock = new Mock<IConsultaCEPRepository>();
+            mock.Setup(m => m.ConsultaCEP("22441020")).Returns(new Domain.Estoque.Logistica.Commands.Output.ConsultarFreteQueryResult
+            {
+                Bairro = "Leblon",
+                Localidade = "Rio de Janeiro",
+                Cep = "22441020",
+                Complemento = "Rua Leblon",
+                DDD = 21, 
+                Uf = "RJ"
+            });
+            IConsultaCEPRepository repo = (IConsultaCEPRepository)mock.Object;
+            FreteHandler handle = new FreteHandler(repo);
+            #endregion
+
+            var command = new Loja.Domain.Estoque.Logistica.Commands.Input.ConsultarFreteCommand("22441020");
+            var result = handle.Handle(command);
+
+            Assert.IsTrue(((ConsultarFreteCommandResult)result.Data).Valor == 10.00m);
         }
 
     }
