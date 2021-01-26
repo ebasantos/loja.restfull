@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -7,11 +7,12 @@
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.78" />
     <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Loja.Domain.Estoque\Loja.Domain.Estoque.csproj" />
-    <ProjectReference Include="..\Loja.Domain.Shared\Loja.Domain.Shared.csproj" />
+    <ProjectReference Include="..\..\Loja.Domain\Loja.Domain.Vendas\Loja.Domain.Vendas.csproj" />
+    <ProjectReference Include="..\Loja.Infra.Data\Loja.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>

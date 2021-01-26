@@ -24,6 +24,7 @@ namespace Loja.API
             services.ResolveConnectionString(Configuration);
             services.ResolveContext(Configuration);
             Loja.Infra.Estoque.Dependencies.DependenciesResolver.ResolveRepositories(services);
+            Loja.Infra.Venda.Dependencies.DependenciesResolver.ResolveRepositories(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

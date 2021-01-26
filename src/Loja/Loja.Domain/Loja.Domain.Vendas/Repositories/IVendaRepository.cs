@@ -1,13 +1,16 @@
-﻿using Loja.Domain.Shared.Entities.Filters;
+﻿using Loja.Domain.Shared.Entities;
+using Loja.Domain.Shared.Entities.Filters;
+using Loja.Domain.Shared.Repository;
 using Loja.Domain.Vendas.Entities;
-using System.Collections.Generic;
 
 namespace Loja.Domain.Vendas.Repositories
 {
-    public interface IVendaRepository
+    public interface IVendaRepository: IConnection
     {
         long RegistrarVenda(Venda venda);
+        long RegistrarVendaSumario(VendaSumario sumario);
         void CancelarVenda(long vendaId);
-        IEnumerable<Venda> ObterHistorico(PaginatedFilter filtro);
+        PaginatedEntity<Venda> ObterHistorico(PaginatedFilter filtro);
+       
     }
 }
