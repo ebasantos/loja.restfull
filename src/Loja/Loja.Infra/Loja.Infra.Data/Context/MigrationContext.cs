@@ -17,5 +17,6 @@ namespace Loja.Infra.Data.Context
 
         public DbSet<Produto> Produto { get; set; }
         public DbSet<Venda> Venda { get; set; }
+        public DbSet<VendaSumario> VendaSumario { get; set; }
     }
 }

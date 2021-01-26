@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loja.Domain.Estoque", "Loja
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loja.Domain.Vendas", "Loja.Domain\Loja.Domain.Vendas\Loja.Domain.Vendas.csproj", "{910DA2E3-178F-4496-BFD3-664D826C20FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loja.Infra.Estoque", "Loja.Infra\Loja.Infra.Estoque\Loja.Infra.Estoque.csproj", "{E3172CAA-B8B5-4E1A-A415-E2C45592DC9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loja.Infra.Estoque", "Loja.Infra\Loja.Infra.Estoque\Loja.Infra.Estoque.csproj", "{E3172CAA-B8B5-4E1A-A415-E2C45592DC9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loja.Tests", "Loja.Tests\Loja.Tests.csproj", "{C3F1525B-4B1F-471E-AB80-CF9FD5C81ACD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{E3172CAA-B8B5-4E1A-A415-E2C45592DC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3172CAA-B8B5-4E1A-A415-E2C45592DC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3172CAA-B8B5-4E1A-A415-E2C45592DC9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3F1525B-4B1F-471E-AB80-CF9FD5C81ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F1525B-4B1F-471E-AB80-CF9FD5C81ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F1525B-4B1F-471E-AB80-CF9FD5C81ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F1525B-4B1F-471E-AB80-CF9FD5C81ACD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{EB5DC376-6B18-4744-8724-9716FC478AC7} = {62A31AF7-D74C-4DC4-AF1F-4EA504C66E89}
 		{910DA2E3-178F-4496-BFD3-664D826C20FA} = {62A31AF7-D74C-4DC4-AF1F-4EA504C66E89}
 		{E3172CAA-B8B5-4E1A-A415-E2C45592DC9F} = {0E074833-22FA-4C90-B77B-F395BCF35030}
+		{C3F1525B-4B1F-471E-AB80-CF9FD5C81ACD} = {2898AC73-222D-46BF-AAC4-09E8085E2A05}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B032177C-EC7F-4B6B-8875-78AA03AAD199}

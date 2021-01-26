@@ -1,10 +1,11 @@
 ﻿using Loja.Domain.Estoque.Entities;
+using Loja.Domain.Shared.Entities;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Loja.Domain.Vendas.Entities
 {
-    public class VendaDescricao
+    public class VendaSumario : Entity
     {
         [ForeignKey(nameof(Venda))]
         public long VendaId { get; set; }

@@ -1,5 +1,6 @@
 ﻿using Loja.Domain.Estoque.Logistica.Handler;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace Loja.API.Controllers
 {
@@ -7,6 +8,14 @@ namespace Loja.API.Controllers
     [Route("v1/frete")]
     public class FreteController : Controller
     {
+        private readonly ILogger<FreteController> _logger;
+
+        public FreteController(ILogger<FreteController> logger)
+        {
+            _logger = logger;
+        }
+
+
         [HttpGet]
         public IActionResult ObterProduto([FromServices] FreteHandler handler, [FromQuery] string cep)
         {

@@ -7,5 +7,8 @@ namespace Loja.Domain.Vendas.Entities
     {
         public long ClienteId { get; set; } 
         public StatusVenda Status { get; set; }
+        public decimal ValorTotal { get; set; }
+        public decimal ValorFrete { get; set; }
+        public decimal ValorProduto { get; set; }
     }
 }
