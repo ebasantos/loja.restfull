@@ -13,7 +13,7 @@ namespace Loja.Tests.Estoque.Logistica
         public void CalcularFreteCEPNaoValido()
         {
             #region CONFIG
-            Mock<IConsultaCEPRepository> mock = new Mock<IConsultaCEPRepository>(); 
+            Mock<IConsultaCEPRepository> mock = new Mock<IConsultaCEPRepository>();
             IConsultaCEPRepository repo = (IConsultaCEPRepository)mock.Object;
             FreteHandler handle = new FreteHandler(repo);
             #endregion
@@ -59,7 +59,7 @@ namespace Loja.Tests.Estoque.Logistica
                 Localidade = "Rio de Janeiro",
                 Cep = "22441020",
                 Complemento = "Rua Leblon",
-                DDD = 21, 
+                DDD = 21,
                 Uf = "RJ"
             });
             IConsultaCEPRepository repo = (IConsultaCEPRepository)mock.Object;
@@ -72,5 +72,27 @@ namespace Loja.Tests.Estoque.Logistica
             Assert.IsTrue(((ConsultarFreteCommandResult)result.Data).Valor == 10.00m);
         }
 
+        [TestMethod]
+        public void CalcularFreteOutraCidadeEstadoRIO()
+        {
+            #region CONFIG
+            Mock<IConsultaCEPRepository> mock = new Mock<IConsultaCEPRepository>();
+            mock.Setup(m => m.ConsultaCEP("28950000")).Returns(new Domain.Estoque.Logistica.Commands.Output.ConsultarFreteQueryResult
+            {
+                Bairro = "Armacao dos Buzios",
+                Localidade = "Armacao Dos Buzios",
+                Cep = "28950000",
+                Complemento = "Rua 22",
+                Uf = "RJ"
+            });
+            IConsultaCEPRepository repo = (IConsultaCEPRepository)mock.Object;
+            FreteHandler handle = new FreteHandler(repo);
+            #endregion
+
+            var command = new Loja.Domain.Estoque.Logistica.Commands.Input.ConsultarFreteCommand("28950-000");
+            var result = handle.Handle(command);
+
+            Assert.IsTrue(((ConsultarFreteCommandResult)result.Data).Valor == 20.00m);
+        }
     }
 }
