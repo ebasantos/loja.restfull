@@ -21,7 +21,7 @@ namespace Loja.Tests.Estoque.Logistica
             var command = new Loja.Domain.Estoque.Logistica.Commands.Input.ConsultarFreteCommand("cep nao valido");
             var result = handle.Handle(command);
 
-            Assert.IsTrue(result.Success == false);
+            Assert.IsTrue(!result.Success);
         }
 
         [TestMethod]
