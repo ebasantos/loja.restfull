@@ -1,4 +1,5 @@
-﻿using Loja.Domain.Vendas.Commands;
+﻿using Loja.Domain.Shared.Command;
+using Loja.Domain.Vendas.Commands;
 using Loja.Domain.Vendas.Handler;
 using Loja.Domain.Vendas.Repositories;
 using Microsoft.AspNetCore.Mvc;
@@ -17,6 +18,15 @@ namespace Loja.API.Controllers
 
             return result.Success ? (IActionResult)Created("", result) : UnprocessableEntity(result);
         }
+
+        [HttpDelete("{vendaId}")]
+        public IActionResult Cancelar([FromServices] IVendaRepository _repo, long vendaId)
+        {
+            _repo.CancelarVenda(vendaId);
+
+            return Accepted(new GenericCommandResult(true, "Venda cancelada com sucesso", new { vendaId = vendaId }));
+        }
+
 
 
         [HttpGet]
